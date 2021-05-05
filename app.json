@@ -1,0 +1,26 @@
+{
+    "name": "slam-mirrorbot ",
+    "description": "A Telegram bot for all your mirror needs",
+    "logo": "https://telegra.ph/file/6507910fd06d18dfaba82.jpg",
+    "keywords": [
+      "bot",
+      "telegram",
+      "python"
+    ],
+    "repository": "https://github.com/breakdowns/slam-mirrorbot",
+    "website": "https://t.me/SlamMirrorSupport",
+    "success_url": "https://github.com/breakdowns/slam-mirrorbot/blob/master/README.md",
+    "stack": "container",
+    "env": {
+      "ENV": {
+      "description": "Setting this to ANYTHING will enable Webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+      "BOT_TOKEN": {
+        "description": "The telegram bot token that you get from @BotFather.",
+        "required": true
+      },
+      "GDRIVE_FOLDER_ID": {
+        "description": "This is the folder ID of the Google Drive Folder to which you want to upload all the mirrors.",
+        "required": true
+      },
