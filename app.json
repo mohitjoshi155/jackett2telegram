@@ -1,5 +1,5 @@
 {
-    "name": "slam-mirrorbot ",
+    "name": "jackett2tg",
     "description": "A Telegram bot for all your mirror needs",
     "logo": "https://telegra.ph/file/6507910fd06d18dfaba82.jpg",
     "keywords": [
@@ -7,9 +7,9 @@
       "telegram",
       "python"
     ],
-    "repository": "https://github.com/breakdowns/slam-mirrorbot",
-    "website": "https://t.me/SlamMirrorSupport",
-    "success_url": "https://github.com/breakdowns/slam-mirrorbot/blob/master/README.md",
+    "repository": "https://github.com/mohitjoshi155/jackett2telegram",
+    "website": "",
+    "success_url": "",
     "stack": "container",
     "env": {
       "TOKEN": {
