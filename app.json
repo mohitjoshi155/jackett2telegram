@@ -17,10 +17,10 @@
       "value": "ANYTHING"
     },
       "TOKEN": {
-        "description": "",
+        "description": "Get it from Botfather",
         "required": true
       },
-      "GDRIVE_FOLDER_ID": {
-        "description": "This is the folder ID of the Google Drive Folder to which you want to upload all the mirrors.",
+      "CHATID": {
+        "description": "",
         "required": true
       },
