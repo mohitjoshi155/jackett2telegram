@@ -371,7 +371,7 @@ def jackettitem_to_telegram(context: CallbackContext, item: ElementTree.Element,
     if (link.startswith("magnet:")):
         keyboard = [
             [
-                InlineKeyboardButton("Link", txt=item.find('link').text)
+                InlineKeyboardButton("Link", text=item.find('link').text)
             ]
         ]
     else:
