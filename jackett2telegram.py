@@ -368,6 +368,11 @@ def jackettitem_to_telegram(context: CallbackContext, item: ElementTree.Element,
                uploadvolumefactor)
 
     link = item.find('link').text
+    if not link:
+                continue
+            msg = link + '\n'
+            # Sending message
+            bot.send_message(client.chat_id, msg)
     if (link.startswith("magnet:")):
         keyboard = [
             [
