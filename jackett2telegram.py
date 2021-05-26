@@ -368,7 +368,7 @@ def jackettitem_to_telegram(context: CallbackContext, item: ElementTree.Element,
                uploadvolumefactor)
 
     link = item.find('link').text
-    if not link:
+            if not link:
                 continue
             msg = link + '\n'
             # Sending message
